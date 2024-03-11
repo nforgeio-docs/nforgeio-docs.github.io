@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkneon_docs=self.webpackChunkneon_docs||[]).push([[2634],{899:(e,n,s)=>{s.r(n),s.d(n,{default:()=>d});s(6540),s(4783);var c=s(7639),o=(s(7134),s(6347));var t=s(4848);function d(){const{siteConfig:e}=(0,c.A)();return(0,t.jsx)(o.dO,{children:(0,t.jsx)(o.qh,{exact:!0,path:"/",children:(0,t.jsx)(o.rd,{to:"/docs/neonkube"})})})}}}]);
