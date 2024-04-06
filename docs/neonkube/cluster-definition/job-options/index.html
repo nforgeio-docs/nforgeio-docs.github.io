@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://www.googletagmanager.com">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-N1JLG2HDHZ"></script>
 <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-N1JLG2HDHZ",{anonymize_ip:!0})</script><link rel="stylesheet" href="/assets/css/styles.4b5958be.css">
-<script src="/assets/js/runtime~main.6c1ecdb1.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.538d7397.js" defer="defer"></script>
 <script src="/assets/js/main.408429e5.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -52,7 +52,7 @@ cluster nodes to Harbor as required.  This defaults to a random time between
 12:00am and 1:00am (UTC) on Tuesdays.</p></td></tr><tr><td><strong>linuxSecurityPatches</strong></td><td><p><code>object:</code> Schedules Kubernetes control plane certificate renewal.   This defaults
 to a random time between 12:00am and 1:00am (UTC) on Tuesdays.</p></td></tr><tr><td><strong>nodeCaCertificateRenewal</strong></td><td><p><code>object:</code> Schedules updates of the public certificate authorities on cluster nodes.
 This defaults to a random time between 12:00am and 1:00am (UTC) on Tuesdays.</p></td></tr><tr><td><strong>telemetryPing</strong></td><td><p><code>object:</code> Schedules the application of Linux security patches on the cluster nodes.
-This defaults to a random time between 12:00am and 1:00am (UTC) on Tuesdays.</p></td></tr><tr><td><strong>TerminatedPodGc</strong></td><td><p><code>object:</code> Schedules the deletion of pods that have been terminated for at least
+This defaults to a random time between 12:00am and 1:00am (UTC) on Tuesdays.</p></td></tr><tr><td><strong>terminatedPodGc</strong></td><td><p><code>object:</code> Schedules the deletion of pods that have been terminated for at least
 <strong>terminatedPodGcThresholdMinutes</strong>.  This defaults to every 15 minutes.</p></td></tr><tr><td><strong>terminatedPodGcThresholdMinutes</strong></td><td><p><code>integer:</code> Specifies the number of minutes after a pod terminates sucessfully or not
 before it becomes eligible for removal by the <strong>neon-cluster-operator</strong>.  This
 defaults to <strong>720 minutes</strong> (12 hours) to give operations teams a chance to investigate
